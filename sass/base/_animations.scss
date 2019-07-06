@@ -1,0 +1,23 @@
+@keyframes moveInTop {
+  0% {
+    transform: translateY(-100px);
+  }
+  85% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes moveInBottom {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  85% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

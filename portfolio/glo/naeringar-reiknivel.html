@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verkefnalota 1 - Vefskólinn 2019 - Gló</title>
+    <link rel="icon" href="img/Glo_kopar.png" sizes="16x16" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/bootstrap-grid.css" />
+    <link rel="stylesheet" href="css/icon-font.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <nav class="bg-white">
+      <div class="nav-container">
+        <ul class="nav-links primary-nav-links">
+          <li class="nav-link-holder item-seperator">
+            <i class="nav-icon fas fa-utensils"></i>
+            <a href="index.html#places" class="nav-link">Gló Staðirnir</a>
+          </li>
+          <li class="nav-link-holder">
+            <i class="nav-icon fas fa-calculator"></i>
+            <a href="" class="nav-link">Næringar Reiknivél</a>
+          </li>
+        </ul>
+
+        <div class="logo-holder">
+          <a href="index.html"
+            ><img src="img/glo_kopar.png" alt="" class="logo"
+          /></a>
+        </div>
+
+        <ul class="nav-links secondary-nav-links">
+          <li class="nav-link-holder item-seperator">
+            <a href="" class="nav-link">Um Gló</a>
+          </li>
+          <li class="nav-link-holder item-seperator">
+            <a href="" class="nav-link">Námskeið</a>
+          </li>
+          <li class="nav-link-holder item-seperator">
+            <a href="" class="nav-link">Blogg</a>
+          </li>
+          <li class="nav-link-holder">
+            <a href="" class="nav-link">Pantanir</a>
+          </li>
+        </ul>
+
+        <div class="hamburger-icon" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="naeringar-reiknivel">
+      <div class="modal"></div>
+
+      <div class="counter-container"></div>
+
+      <div class="user-menu u-hidden">
+        <div class="user-items-holder">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 mx-auto u-center-text">
+              <div class="user-menu-items">
+                <h3 class="user-menu-items-heading">Þín Items</h3>
+                <div class="user-item-app"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu u-margin-top-big">
+        <div class="delete-modal u-hidden">
+          <h3 class="delete-modal-heading u-center-text">
+            Ertu viss um að þú viljir eyða?
+          </h3>
+          <div class="delete-modal-btn-holder">
+            <a href="javascript:void(0)" class="btn btn-cancel">Hætta við</a>
+            <a href="javascript:void(0)" class="btn btn-delete">Staðfesta</a>
+          </div>
+        </div>
+        <div class="container menu-content-holder"></div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 u-margin-top-huge">
+            <img src="img/sitelogo.svg" alt="" class="site-logo" />
+            <hr />
+            <div class="social-icons">
+              <i class="social-icon fab fa-facebook"></i>
+              <i class="social-icon fab fa-instagram"></i>
+              <i class="social-icon fab fa-snapchat-square"></i>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 u-margin-top-huge">
+            <ul>
+              <li>Gló veitingar ehf.</li>
+              <li>Hæðasmári 6, 200 Kópavogi</li>
+              <li><span class="bold">Netfang:</span> glo@glo.is</li>
+              <li><span class="bold">Sími:</span> 553-1111</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/naeringar-reiknivel.js"></script>
+  </body>
+</html>

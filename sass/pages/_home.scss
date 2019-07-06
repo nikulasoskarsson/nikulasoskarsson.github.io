@@ -1,0 +1,116 @@
+main {
+  background-color: #eee;
+  // height: 4000px;
+}
+.skills {
+  background-color: #eee;
+  margin-top: -20rem;
+  &__holder {
+    padding-top: 20rem;
+  }
+  &__list {
+    list-style: none;
+    padding-top: 1rem;
+    width: 100%;
+    padding-bottom: 8rem;
+    @include respond(phone) {
+      padding-left: 1rem;
+    }
+  }
+  &__list-item {
+    font-size: 1.5rem;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    font-weight: 300;
+    @include respond(tablet) {
+      width: 70%;
+    }
+
+    &:before {
+      position: absolute;
+      left: -2.25em;
+      display: inline-block;
+      width: 22px;
+      height: 22px;
+      margin-right: 0.5em;
+      background-color: #b53c2c;
+      border-radius: 50%;
+      color: #fff;
+      text-align: center;
+      line-height: 1.25em;
+      top: 0.2rem;
+
+      content: "";
+    }
+    &:not(:last-child) {
+      margin: 2rem 0;
+    }
+  }
+}
+// .list-tag {
+//   color: #dc3545;
+//   font-size: 4rem;
+//   font-weight: 700;
+//   position: absolute;
+//   font-style: normal;
+// }
+// .list-tag-1 {
+//   left: -100px;
+//   top: 50%;
+//   transform: translateY(-50%);
+// }
+// .list-tag-2 {
+//   right: -100px;
+//   top: 40%;
+//   transform: translateY(-50%);
+// }
+.portfolio {
+  // clip-path: polygon(0 20vh, 100% 0, 100% 99vh, 0 100%);
+  background-color: #eee;
+  transform: skewY(-7deg);
+  position: relative;
+  &__background {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    opacity: 0.6;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    &::after {
+      content: "";
+      transform: skewY(-deg);
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: linear-gradient(
+        to right bottom,
+        rgba(#eee, 0.9),
+        rgba(#444, 0.9)
+      );
+      z-index: 50;
+    }
+  }
+  &__content {
+    transform: skewY(7deg);
+  }
+  &__heading {
+    padding-top: 4rem;
+  }
+  &__card-holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 8rem;
+  }
+}
+.contact {
+  padding-top: 3rem;
+  background-color: #eee;
+}

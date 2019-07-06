@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400,400i,700,900"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Nikulás Óskarsson - Portfolio síða - 2019</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <input type="checkbox" class="nav__checkbox" id="navi-toggle" />
+        <label for="navi-toggle" class="nav__button">
+          <span class="nav__icon">&nbsp;</span>
+        </label>
+        <div class="nav__background">&nbsp;</div>
+        <div class="nav__list-holder">
+          <ul class="nav__list">
+            <li class="nav__list-item">
+              <a href="#" class="nav__link">Home</a>
+            </li>
+
+            <li class="nav__list-item">
+              <a href="#skills" class="nav__link">Kunnátta</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#portfolio" class="nav__link">Portfolio</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#contact" class="nav__link">Hafa samband</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#footer" class="nav__link">Footer</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="header__content">
+        <div class="bg-video">
+          <video class="bg-video__content" autoplay muted loop>
+            <source src="img/bg-video.mp4" type="video/mp4" />
+            <source src="img/bg-video.webm" type="video/webm" />
+            Your browser is not supported.
+          </video>
+        </div>
+        <div class="txt-holder">
+          <div class="txt-holder__heading">
+            <span class="letter">N</span>
+            <span class="letter">I</span>
+            <span class="letter">K</span>
+            <span class="letter">U</span>
+            <span class="letter">L</span>
+            <span class="letter">Á</span>
+            <span class="letter">S</span>
+            <span class="letter divider">Ó</span>
+            <span class="letter">S</span>
+            <span class="letter">K</span>
+            <span class="letter">A</span>
+            <span class="letter">R</span>
+            <span class="letter">S</span>
+            <span class="letter">S</span>
+            <span class="letter">O</span>
+            <span class="letter">N</span>
+          </div>
+          <div class="txt-holder__tagline">
+            <span class="u-bold">V</span
+            ><span
+              class="txt-type"
+              data-wait="3000"
+              data-words='["iðmótsforritun", "efhönnun", "efsíðugerð"]'
+            >
+            </span>
+          </div>
+          <a href="#portfolio" class="btn btn-white btn-animated ">Portfolio</a>
+        </div>
+      </div>
+      <main>
+        <section class="skills" id="skills">
+          <div class="skills__holder">
+            <h1 class="heading-primary u-center-text">Kunnátta</h1>
+            <!-- <h3 class="heading-secondary u-center-text">
+              Hvað get ég gert fyrir þig?
+            </h3> -->
+            <ul class="skills__list">
+              <li class="skills__list-item">
+                Uppsettning á vefsíðum eða mobile appi með öllu því nýjasta í
+                HTML5, CSS3 og Javascript.
+              </li>
+              <li class="skills__list-item">
+                Notkun á front end frameworks eins og bootstrap og materialize
+                til þess að flýta fyrir development ferlinu.
+              </li>
+              <li class="skills__list-item">
+                Notkun á sass til þess að flýta fyrir og auðvelda css ferlið auk
+                þess að hafa endurnotenlegan kóða sem auðvelt er að lesa
+              </li>
+
+              <li class="skills__list-item">
+                Notkun á git version control til þess að halda utan um verkefni
+                bæði með github og gitlab.
+              </li>
+              <li class="skills__list-item">
+                Hönnun á ui kit, flæðiriti, wireframe og final design fyrir
+                vefsíðu og app með forritum eins og Figma, Adobe XD og protopie.
+              </li>
+              <li class="skills__list-item">
+                Er að æfa mig í að nota Javascript frameworks eins og vue.js og
+                react.
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="portfolio">
+          <div class="portfolio__holder">
+            <div class="portfolio__background">
+              <div class="bg-video">
+                <video class="bg-video__content" autoplay muted loop>
+                  <source src="img/portfolio-background.mp4" type="video/mp4" />
+                  <source
+                    src="img/portfolio-background.webm"
+                    type="video/webm"
+                  />
+                  Your browser is not supported.
+                </video>
+              </div>
+            </div>
+
+            <div class="portfolio__content" id="portfolio">
+              <h1 class="heading-primary u-center-text portfolio__heading">
+                Portfolio
+              </h1>
+              <h3 class="heading-secondary u-center-text">
+                Nokkur vel valin verkefni
+              </h3>
+              <div class="portfolio__card-holder">
+                <div class="card">
+                  <a href="#modal1" class="card-link">
+                    <div class="card__heading-holder">
+                      <h1 class="card__heading">Gló - Næringar Reiknivél</h1>
+                    </div>
+                    <div class="card__video-holder">
+                      <video class="card__video" autoplay muted loop>
+                        <source src="img/glo.mp4" type="video/mp4" />
+                        <source src="img/glo.webm" type="video/webm" />
+                        Your browser is not supported.
+                      </video>
+                    </div>
+                  </a>
+                </div>
+                <div class="card">
+                  <a href="#modal2" class="card-link">
+                    <div class="card__heading-holder">
+                      <h1 class="card__heading">
+                        Image database w/ computer vision
+                      </h1>
+                    </div>
+                    <div class="card__video-holder">
+                      <video class="card__video" autoplay muted loop>
+                        <source src="img/imagedatabase.mp4" type="video/mp4" />
+                        <source
+                          src="img/imagedatabase.webm"
+                          type="video/webm"
+                        />
+                        Your browser is not supported.
+                      </video>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="section contact"></div>
+      </main>
+
+      <section class="contact" id="contact">
+        <h1 class="heading-primary u-center-text">Hafa samband</h1>
+        <h3 class="heading-secondary u-center-text">Sentu á mig línu...</h3>
+        <form action="php/contactform.php" method="post" class="form">
+          <div class="form__group">
+            <label for="name" class="form__label">Nafn:</label>
+            <input type="text" class="form__input" id="name" name="name" />
+          </div>
+
+          <div class="form__group">
+            <label for="email" class="form__label">Netfang:</label>
+            <input type="email" class="form__input" id="email" name="email" />
+          </div>
+
+          <div class="form__group">
+            <label for="efni" class="form__label">Efni:</label>
+            <input type="text" class="form__input" id="efni" name="efni" />
+          </div>
+
+          <div class="form__group">
+            <label for="skilabod" class="form__label">Skilaboð:</label>
+
+            <textarea
+              type="text"
+              class="form__input form__textarea"
+              id="skilabod"
+              name="skilabod"
+            ></textarea>
+          </div>
+          <button id="submit" class="btn btn-green u-center-text">
+            Hafa samband
+          </button>
+        </form>
+      </section>
+
+      <div class="modal" id="modal1">
+        <div class="modal__content">
+          <div class="modal__left-container">
+            <img src="img/glo.jpg" alt="" class="modal__img" />
+          </div>
+          <div class="modal__right-container">
+            <a href="#home" class="modal__close">&times;</a>
+            <div class="modal__text-holder">
+              <h1 class="modal__heading">Um Verkefnið</h1>
+              <p class="modal__text">
+                Verkefni sem ég gerði í verkefnalotu á annari önn í vefskólanum
+                í samstarfi við gló. Verkefnið fólst í að búa til næringar
+                reiknivél fyrir veitingarstaðinn gló. Þetta var einstaklings
+                verkefni og því gerði ég allt sjálfur í verkefninu frá grunni.
+                Verkefnið fólst aðeins í því að gera tvær síður og því virkar
+                aðeins forsíðan og næringar reiknivélin. .
+              </p>
+              <div class="modal__button-holder">
+                <a
+                  href="portfolio/glo/index.html"
+                  target="_blank"
+                  class="btn btn-green"
+                  >Live preview</a
+                >
+                <a
+                  href="https://github.com/nikulasoskarsson/Vefskolinn_Verkefnalota1/tree/master"
+                  target="_blank"
+                  class="btn btn-green"
+                  >Skoða á Github</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal" id="modal2">
+        <div class="modal__content">
+          <div class="modal__left-container">
+            <img src="img/imgdatabase.JPG" alt="" class="modal__img" />
+          </div>
+          <div class="modal__right-container">
+            <a href="#home" class="modal__close">&times;</a>
+            <div class="modal__text-holder">
+              <h1 class="modal__heading">Um Verkefnið</h1>
+              <p class="modal__text">
+                Lokaverkefni í javascript áfanganum á seinni önn. Vill taka það
+                fram að þetta er hópverkefni en hægt er að skoða hvað ég gerði
+                gegnum git commit history. Hægt er að skrá sig sem notandi og þá
+                getur maður sett in mynd. Síðan birtist myndinn á framendanum
+                ásamt upplýsingum úr microsoft computer vision api-inum. Búið
+                til með firebase og node.js.
+              </p>
+              <div class="modal__button-holder ">
+                <a
+                  href="https://github.com/5dropar/"
+                  target="_blank"
+                  class="btn btn-green"
+                  >Skoða á Github</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer" id="footer">
+        <div class="footer__content">
+          <h1 class="footer__heading u-center-text">
+            NIKULASOSKARSSON.is
+          </h1>
+          <div class="footer__left">
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a
+                  href="https://github.com/nikulasoskarsson"
+                  class="footer__link"
+                  target="_blank"
+                  >Github</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a
+                  href="https://www.facebook.com/N1kul4s"
+                  class="footer__link"
+                  target="_blank"
+                  >Facebook</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a
+                  href="https://www.instagram.com/nikulasoskarsson/"
+                  target="_blank"
+                  class="footer__link"
+                  >Instagram</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a
+                  href="https://www.youtube.com/"
+                  target="_blank"
+                  class="footer__link"
+                  >Youtube</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer__right">
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                &copy; nikulasoskarsson.is 2019
+              </li>
+              <li class="footer__list-item">
+                nikulasoskarsson@gmail.com
+              </li>
+              <li class="footer__list-item">
+                354 - 776 9906
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase-firestore.js"></script>
+      <script>
+        // Initialize Firebase
+        var config = {
+          apiKey: "AIzaSyBXaVgY7j27iJq9qLD4ROsK5It_1dPH9YM",
+          authDomain: "portfolio-email-799f8.firebaseapp.com",
+          databaseURL: "https://portfolio-email-799f8.firebaseio.com",
+          projectId: "portfolio-email-799f8",
+          storageBucket: "",
+          messagingSenderId: "368159468477"
+        };
+        firebase.initializeApp(config);
+
+        const db = firebase.firestore();
+      </script>
+
+      <script type="text/javascript" src="js/main.js"></script>
+      <script type="text/javascript" src="js/form.js"></script>
+    </header>
+  </body>
+</html>
