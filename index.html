@@ -180,7 +180,13 @@
       <section class="contact" id="contact">
         <h1 class="heading-primary u-center-text">Hafa samband</h1>
         <h3 class="heading-secondary u-center-text">Sentu á mig línu...</h3>
-        <form action="php/contactform.php" method="post" class="form">
+        <form 
+          name="contact-me"
+          method="post" class="form"     
+          method="POST"
+          data-netlify="true"
+        >
+          <input type="hidden" value="contact-me" name="form-name" />
           <div class="form__group">
             <label for="name" class="form__label">Nafn:</label>
             <input type="text" class="form__input" id="name" name="name" />
