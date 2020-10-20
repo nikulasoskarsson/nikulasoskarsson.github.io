@@ -78,7 +78,7 @@
             ><span
               class="txt-type"
               data-wait="3000"
-              data-words='["eb Development", "eb Design"]'
+              data-words='["eb Developmer", "eb Designer"]'
             >
             </span>
           </div>
@@ -136,6 +136,38 @@
                 Some of my Projects
               </h3>
               <div class="portfolio__card-holder">
+
+         
+              <div class="card">
+                  <a href="#modal1" class="card-link">
+                    <div class="card__heading-holder">
+                      <h1 class="card__heading">Origo hf - Timian</h1>
+                    </div>
+                    <div class="card__video-holder">
+                      <video class="card__video" autoplay muted loop>
+                        <source src="img/timian.mp4" type="video/mp4" />
+                       
+                        Your browser is not supported.
+                      </video>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="card">
+                  <a href="#modal1" class="card-link">
+                    <div class="card__heading-holder">
+                      <h1 class="card__heading">Anton Örn - Portfolio site</h1>
+                    </div>
+                    <div class="card__video-holder">
+                      <video class="card__video" autoplay muted loop>
+                        <source src="img/anton-portfolio.mp4" type="video/mp4" />
+                        <source src="img/anton-portfolio.webm" type="video/webm" />
+                         Your browser is not supported.
+                      </video>
+                    </div>
+                  </a>
+                </div>
+
                 <div class="card">
                   <a href="#modal1" class="card-link">
                     <div class="card__heading-holder">
@@ -151,25 +183,7 @@
                   </a>
                 </div>
                 
-                <div class="card">
-                  <a href="#modal2" class="card-link">
-                    <div class="card__heading-holder">
-                      <h1 class="card__heading">
-                        Image database w/ computer vision
-                      </h1>
-                    </div>
-                    <div class="card__video-holder">
-                      <video class="card__video" autoplay muted loop>
-                        <source src="img/imagedatabase.mp4" type="video/mp4" />
-                        <source
-                          src="img/imagedatabase.webm"
-                          type="video/webm"
-                        />
-                        Your browser is not supported.
-                      </video>
-                    </div>
-                  </a>
-                </div>
+               
               </div>
             </div>
           </div>
@@ -178,8 +192,8 @@
       </main>
 
       <section class="contact" id="contact">
-        <h1 class="heading-primary u-center-text">Hafa samband</h1>
-        <h3 class="heading-secondary u-center-text">Sentu á mig línu...</h3>
+        <h1 class="heading-primary u-center-text">Contact Me</h1>
+        <h3 class="heading-secondary u-center-text">I will get back to you as soon as possible</h3>
         <form 
           name="contact-me"
           method="post" class="form"     
@@ -188,22 +202,22 @@
         >
           <input type="hidden" value="contact-me" name="form-name" />
           <div class="form__group">
-            <label for="name" class="form__label">Nafn:</label>
+            <label for="name" class="form__label">Name:</label>
             <input type="text" class="form__input" id="name" name="name" />
           </div>
 
           <div class="form__group">
-            <label for="email" class="form__label">Netfang:</label>
+            <label for="email" class="form__label">Email:</label>
             <input type="email" class="form__input" id="email" name="email" />
           </div>
 
           <div class="form__group">
-            <label for="efni" class="form__label">Efni:</label>
+            <label for="efni" class="form__label">Subject:</label>
             <input type="text" class="form__input" id="efni" name="efni" />
           </div>
 
           <div class="form__group">
-            <label for="skilabod" class="form__label">Skilaboð:</label>
+            <label for="skilabod" class="form__label">Message:</label>
 
             <textarea
               type="text"
@@ -213,7 +227,7 @@
             ></textarea>
           </div>
           <button id="submit" class="btn btn-green u-center-text">
-            Hafa samband
+            Send email
           </button>
         </form>
       </section>
@@ -226,27 +240,22 @@
           <div class="modal__right-container">
             <a href="#home" class="modal__close">&times;</a>
             <div class="modal__text-holder">
-              <h1 class="modal__heading">Um Verkefnið</h1>
+              <h1 class="modal__heading">About the Project</h1>
               <p class="modal__text">
-                Verkefni sem ég gerði í verkefnalotu á annari önn í vefskólanum
-                í samstarfi við gló. Verkefnið fólst í að búa til næringar
-                reiknivél fyrir veitingarstaðinn gló. Þetta var einstaklings
-                verkefni og því gerði ég allt sjálfur í verkefninu frá grunni.
-                Verkefnið fólst aðeins í því að gera tvær síður og því virkar
-                aðeins forsíðan og næringar reiknivélin. .
+              Portfolio website I am creating for my designer friend in my freetime based on his design. The website is built with React and Prismic. This website is a work in progress but I am currently hosting it on netlify so you can see what I have done so far.
               </p>
               <div class="modal__button-holder">
                 <a
                   href="portfolio/glo/index.html"
                   target="_blank"
                   class="btn btn-green"
-                  >Live preview</a
+                  >Go to Website</a
                 >
                 <a
                   href="https://github.com/nikulasoskarsson/Vefskolinn_Verkefnalota1/tree/master"
                   target="_blank"
                   class="btn btn-green"
-                  >Skoða á Github</a
+                  >Open on Github</a
                 >
               </div>
             </div>
@@ -286,7 +295,7 @@
       <footer class="footer" id="footer">
         <div class="footer__content">
           <h1 class="footer__heading u-center-text">
-            NIKULASOSKARSSON.is
+            NIKULASOSKARSSON.COM
           </h1>
           <div class="footer__left">
             <ul class="footer__list">
@@ -316,7 +325,7 @@
               </li>
               <li class="footer__list-item">
                 <a
-                  href="https://www.youtube.com/"
+                  href="https://www.youtube.com/channel/UCcVzLr8UOx_CvS8unUvXUGg?view_as=subscriber"
                   target="_blank"
                   class="footer__link"
                   >Youtube</a
@@ -327,13 +336,13 @@
           <div class="footer__right">
             <ul class="footer__list">
               <li class="footer__list-item">
-                &copy; nikulasoskarsson.is 2019
+                &copy; nikulasoskarsson.com 2020
               </li>
               <li class="footer__list-item">
                 nikulasoskarsson@gmail.com
               </li>
               <li class="footer__list-item">
-                354 - 776 9906
+                +354 776 9906
               </li>
             </ul>
           </div>
