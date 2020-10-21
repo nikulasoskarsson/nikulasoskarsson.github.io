@@ -33,6 +33,10 @@
   &-green {
     background-color: $color-primary;
     color: $color-white;
+    &-100{
+      width:100%;
+      text-align: center;
+    }
     &::after {
       background-color: $color-primary;
     }

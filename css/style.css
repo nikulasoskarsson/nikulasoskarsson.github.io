@@ -83,6 +83,9 @@ a {
 .btn-green {
   background-color: #55c57a;
   color: #fff; }
+  .btn-green-100 {
+    width: 100%;
+    text-align: center; }
   .btn-green::after {
     background-color: #55c57a; }
 .btn::after {
