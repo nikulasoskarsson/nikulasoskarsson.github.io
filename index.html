@@ -1,372 +1,389 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400,400i,700,900"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="icon" 
-      type="image/png" 
-      href="img/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400,400i,700,900" rel="stylesheet" />
 
-    <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/png" href="img/favicon-32x32.png">
 
-    <title>Nikulás Óskarsson - Portfolio - 2020</title>
-  </head>
-  <body>
-    <header class="header">
-      <nav class="nav">
-        <input type="checkbox" class="nav__checkbox" id="navi-toggle" />
-        <label for="navi-toggle" class="nav__button">
-          <span class="nav__icon">&nbsp;</span>
-        </label>
-        <div class="nav__background">&nbsp;</div>
-        <div class="nav__list-holder">
-          <ul class="nav__list">
-            <li class="nav__list-item">
-              <a href="#" class="nav__link">Home</a>
+  <link rel="stylesheet" href="css/style.css" />
+
+  <title>Nikulás Óskarsson - Portfolio - 2020</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav">
+      <input type="checkbox" class="nav__checkbox" id="navi-toggle" />
+      <label for="navi-toggle" class="nav__button">
+        <span class="nav__icon">&nbsp;</span>
+      </label>
+      <div class="nav__background">&nbsp;</div>
+      <div class="nav__list-holder">
+        <ul class="nav__list">
+          <li class="nav__list-item">
+            <a href="#" class="nav__link">Home</a>
+          </li>
+
+          <li class="nav__list-item">
+            <a href="#skills" class="nav__link">Knowledge</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#portfolio" class="nav__link">Portfolio</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#contact" class="nav__link">Contact me</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#footer" class="nav__link">Information</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="header__content">
+      <div class="bg-video">
+        <video class="bg-video__content" autoplay muted loop>
+          <source src="img/bg-video.mp4" type="video/mp4" />
+          <source src="img/bg-video.webm" type="video/webm" />
+          Your browser is not supported.
+        </video>
+      </div>
+      <div class="txt-holder">
+        <div class="txt-holder__heading">
+          <span class="letter">N</span>
+          <span class="letter">I</span>
+          <span class="letter">K</span>
+          <span class="letter">U</span>
+          <span class="letter">L</span>
+          <span class="letter">Á</span>
+          <span class="letter">S</span>
+          <span class="letter divider">Ó</span>
+          <span class="letter">S</span>
+          <span class="letter">K</span>
+          <span class="letter">A</span>
+          <span class="letter">R</span>
+          <span class="letter">S</span>
+          <span class="letter">S</span>
+          <span class="letter">O</span>
+          <span class="letter">N</span>
+        </div>
+        <div class="txt-holder__tagline">
+          <span class="u-bold">W</span><span class="txt-type" data-wait="3000"
+            data-words='["eb Developmer", "eb Designer"]'>
+          </span>
+        </div>
+        <a href="#portfolio" class="btn btn-white btn-animated ">Portfolio</a>
+      </div>
+    </div>
+    <main>
+      <section class="skills" id="skills">
+        <div class="skills__holder">
+          <h1 class="heading-primary u-center-text">Knowledge</h1>
+
+          <ul class="skills__list">
+            <li class="skills__list-item">
+              Frontend Development with everything new in HTML5, CSS3, SASS and Javascript
+            </li>
+            <li class="skills__list-item">
+              Bulding Web Applications with React using all the newests features and making use of state magagment with
+              Redux or the Context API
+            </li>
+            <li class="skills__list-item">
+              Building Mobile Applications using React Native or Flutter
             </li>
 
-            <li class="nav__list-item">
-              <a href="#skills" class="nav__link">Knowledge</a>
+            <li class="skills__list-item">
+              Designing and building relational and non relational databases.
             </li>
-            <li class="nav__list-item">
-              <a href="#portfolio" class="nav__link">Portfolio</a>
+            <li class="skills__list-item">
+              Writing clean and scalable backends using technologies like PHP or Node & Express.
             </li>
-            <li class="nav__list-item">
-              <a href="#contact" class="nav__link">Contact me</a>
-            </li>
-            <li class="nav__list-item">
-              <a href="#footer" class="nav__link">Information</a>
+            <li class="skills__list-item">
+              Designing a ui kit, flow chart and final design with programs like Figma, Adobe XD and protopie.
             </li>
           </ul>
         </div>
-      </nav>
-      <div class="header__content">
-        <div class="bg-video">
-          <video class="bg-video__content" autoplay muted loop>
-            <source src="img/bg-video.mp4" type="video/mp4" />
-            <source src="img/bg-video.webm" type="video/webm" />
-            Your browser is not supported.
-          </video>
-        </div>
-        <div class="txt-holder">
-          <div class="txt-holder__heading">
-            <span class="letter">N</span>
-            <span class="letter">I</span>
-            <span class="letter">K</span>
-            <span class="letter">U</span>
-            <span class="letter">L</span>
-            <span class="letter">Á</span>
-            <span class="letter">S</span>
-            <span class="letter divider">Ó</span>
-            <span class="letter">S</span>
-            <span class="letter">K</span>
-            <span class="letter">A</span>
-            <span class="letter">R</span>
-            <span class="letter">S</span>
-            <span class="letter">S</span>
-            <span class="letter">O</span>
-            <span class="letter">N</span>
-          </div>
-          <div class="txt-holder__tagline">
-            <span class="u-bold">W</span
-            ><span
-              class="txt-type"
-              data-wait="3000"
-              data-words='["eb Developmer", "eb Designer"]'
-            >
-            </span>
-          </div>
-          <a href="#portfolio" class="btn btn-white btn-animated ">Portfolio</a>
-        </div>
-      </div>
-      <main>
-        <section class="skills" id="skills">
-          <div class="skills__holder">
-            <h1 class="heading-primary u-center-text">Knowledge</h1>
-          
-            <ul class="skills__list">
-              <li class="skills__list-item">
-              Frontend Development with everything new in HTML5, CSS3, SASS and Javascript
-              </li>
-              <li class="skills__list-item">
-                Bulding Web Applications with React using all the newests features and making use of state magagment with Redux or the Context API
-              </li>
-              <li class="skills__list-item">
-                Building Mobile Applications using React Native or Flutter 
-              </li>
-
-              <li class="skills__list-item">
-                Designing and building relational and non relational databases.
-              </li>
-              <li class="skills__list-item">
-               Writing clean and scalable backends using technologies like PHP or Node & Express.
-             </li>
-              <li class="skills__list-item">
-                Designing a ui kit, flow chart and final design with programs like Figma, Adobe XD and protopie.
-              </li>
-            </ul>
-          </div>
-        </section>
-        <section class="portfolio">
-          <div class="portfolio__holder">
-            <div class="portfolio__background">
-              <div class="bg-video">
-                <video class="bg-video__content" autoplay muted loop>
-                  <source src="img/portfolio-background.mp4" type="video/mp4" />
-                  <source
-                    src="img/portfolio-background.webm"
-                    type="video/webm"
-                  />
-                  Your browser is not supported.
-                </video>
-              </div>
-            </div>
-
-            <div class="portfolio__content" id="portfolio">
-              <h1 class="heading-primary u-center-text portfolio__heading">
-                Portfolio
-              </h1>
-              <h3 class="heading-secondary u-center-text">
-                Some of my Projects
-              </h3>
-              <div class="portfolio__card-holder">
-
-         
-              <div class="card">
-                  <a href="#modal1" class="card-link">
-                    <div class="card__heading-holder">
-                      <h1 class="card__heading">Origo hf - Timian</h1>
-                    </div>
-                    <div class="card__video-holder">
-                      <video class="card__video" autoplay muted loop>
-                        <source src="img/timian.mp4" type="video/mp4" />
-                       
-                        Your browser is not supported.
-                      </video>
-                    </div>
-                  </a>
-                </div>
-
-                <div class="card">
-                  <a href="#modal1" class="card-link">
-                    <div class="card__heading-holder">
-                      <h1 class="card__heading">Anton Örn - Portfolio site</h1>
-                    </div>
-                    <div class="card__video-holder">
-                      <video class="card__video" autoplay muted loop>
-                        <source src="img/anton-portfolio.mp4" type="video/mp4" />
-                        <source src="img/anton-portfolio.webm" type="video/webm" />
-                         Your browser is not supported.
-                      </video>
-                    </div>
-                  </a>
-                </div>
-
-                <div class="card">
-                  <a href="#modal1" class="card-link">
-                    <div class="card__heading-holder">
-                      <h1 class="card__heading">Gló - Næringar Reiknivél</h1>
-                    </div>
-                    <div class="card__video-holder">
-                      <video class="card__video" autoplay muted loop>
-                        <source src="img/glo.mp4" type="video/mp4" />
-                        <source src="img/glo.webm" type="video/webm" />
-                        Your browser is not supported.
-                      </video>
-                    </div>
-                  </a>
-                </div>
-                
-               
-              </div>
-            </div>
-          </div>
-        </section>
-        <div class="section contact"></div>
-      </main>
-
-      <section class="contact" id="contact">
-        <h1 class="heading-primary u-center-text">Contact Me</h1>
-        <h3 class="heading-secondary u-center-text">I will get back to you as soon as possible</h3>
-        <form 
-          name="contact-me"
-          method="post" class="form"     
-          method="POST"
-          data-netlify="true"
-        >
-          <input type="hidden" value="contact-me" name="form-name" />
-          <div class="form__group">
-            <label for="name" class="form__label">Name:</label>
-            <input type="text" class="form__input" id="name" name="name" />
-          </div>
-
-          <div class="form__group">
-            <label for="email" class="form__label">Email:</label>
-            <input type="email" class="form__input" id="email" name="email" />
-          </div>
-
-          <div class="form__group">
-            <label for="efni" class="form__label">Subject:</label>
-            <input type="text" class="form__input" id="efni" name="efni" />
-          </div>
-
-          <div class="form__group">
-            <label for="skilabod" class="form__label">Message:</label>
-
-            <textarea
-              type="text"
-              class="form__input form__textarea"
-              id="skilabod"
-              name="skilabod"
-            ></textarea>
-          </div>
-          <button id="submit" class="btn btn-green u-center-text">
-            Send email
-          </button>
-        </form>
       </section>
-
-      <div class="modal" id="modal1">
-        <div class="modal__content">
-          <div class="modal__left-container">
-            <img src="img/glo.jpg" alt="" class="modal__img" />
+      <section class="portfolio">
+        <div class="portfolio__holder">
+          <div class="portfolio__background">
+            <div class="bg-video">
+              <video class="bg-video__content" autoplay muted loop>
+                <source src="img/portfolio-background.mp4" type="video/mp4" />
+                <source src="img/portfolio-background.webm" type="video/webm" />
+                Your browser is not supported.
+              </video>
+            </div>
           </div>
-          <div class="modal__right-container">
-            <a href="#home" class="modal__close">&times;</a>
-            <div class="modal__text-holder">
-              <h1 class="modal__heading">About the Project</h1>
-              <p class="modal__text">
-              Portfolio website I am creating for my designer friend in my freetime based on his design. The website is built with React and Prismic. This website is a work in progress but I am currently hosting it on netlify so you can see what I have done so far.
-              </p>
-              <div class="modal__button-holder">
-                <a
-                  href="portfolio/glo/index.html"
-                  target="_blank"
-                  class="btn btn-green"
-                  >Go to Website</a
-                >
-                <a
-                  href="https://github.com/nikulasoskarsson/Vefskolinn_Verkefnalota1/tree/master"
-                  target="_blank"
-                  class="btn btn-green"
-                  >Open on Github</a
-                >
+
+          <div class="portfolio__content" id="portfolio">
+            <h1 class="heading-primary u-center-text portfolio__heading">
+              Portfolio
+            </h1>
+            <h3 class="heading-secondary u-center-text">
+              Some of my Projects
+            </h3>
+            <div class="portfolio__card-holder">
+
+              <div class="card">
+                <a href="#modal1" class="card-link">
+                  <div class="card__heading-holder">
+                    <h1 class="card__heading">Twitter Clone</h1>
+                  </div>
+                  <div class="card__video-holder">
+                    <video class="card__video" autoplay muted loop>
+                      <source src="img/twitter-clone.webm" type="video/webm" />
+                      Your browser is not supported.
+                    </video>
+                  </div>
+                </a>
               </div>
+
+
+
+              <div class="card">
+                <a href="#modal2" class="card-link">
+                  <div class="card__heading-holder">
+                    <h1 class="card__heading">Anton Örn - Portfolio site</h1>
+                  </div>
+                  <div class="card__video-holder">
+                    <video class="card__video" autoplay muted loop>
+                      <source src="img/anton-portfolio.mp4" type="video/mp4" />
+                      <source src="img/anton-portfolio.webm" type="video/webm" />
+                      Your browser is not supported.
+                    </video>
+                  </div>
+                </a>
+              </div>
+
+              <div class="card">
+                <a href="#modal3" class="card-link">
+                  <div class="card__heading-holder">
+                    <h1 class="card__heading">Origo hf - Timian</h1>
+                  </div>
+                  <div class="card__video-holder">
+                    <video class="card__video" autoplay muted loop>
+                      <source src="img/timian.mp4" type="video/mp4" />
+
+                      Your browser is not supported.
+                    </video>
+                  </div>
+                </a>
+              </div>
+
+              <div class="card">
+                <a href="#modal4" class="card-link">
+                  <div class="card__heading-holder">
+                    <h1 class="card__heading">Gló - Nutrition Calculator</h1>
+                  </div>
+                  <div class="card__video-holder">
+                    <video class="card__video" autoplay muted loop>
+                      <source src="img/glo.mp4" type="video/mp4" />
+                      <source src="img/glo.webm" type="video/webm" />
+                      Your browser is not supported.
+                    </video>
+                  </div>
+                </a>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="section contact"></div>
+    </main>
+
+    <section class="contact" id="contact">
+      <h1 class="heading-primary u-center-text">Contact Me</h1>
+      <h3 class="heading-secondary u-center-text">I will get back to you as soon as possible</h3>
+      <form name="contact-me" method="post" class="form" method="POST" data-netlify="true">
+        <input type="hidden" value="contact-me" name="form-name" />
+        <div class="form__group">
+          <label for="name" class="form__label">Name:</label>
+          <input type="text" class="form__input" id="name" name="name" />
+        </div>
+
+        <div class="form__group">
+          <label for="email" class="form__label">Email:</label>
+          <input type="email" class="form__input" id="email" name="email" />
+        </div>
+
+        <div class="form__group">
+          <label for="efni" class="form__label">Subject:</label>
+          <input type="text" class="form__input" id="efni" name="efni" />
+        </div>
+
+        <div class="form__group">
+          <label for="skilabod" class="form__label">Message:</label>
+
+          <textarea type="text" class="form__input form__textarea" id="skilabod" name="skilabod"></textarea>
+        </div>
+        <button id="submit" class="btn btn-green u-center-text">
+          Send email
+        </button>
+      </form>
+    </section>
+
+    <div class="modal" id="modal1">
+      <div class="modal__content">
+        <div class="modal__left-container">
+          <img src="img/twitter-clone.jpg" alt="" class="modal__img" />
+        </div>
+        <div class="modal__right-container">
+          <a href="#home" class="modal__close">&times;</a>
+          <div class="modal__text-holder">
+            <h1 class="modal__heading">About the Project</h1>
+            <p class="modal__text">
+              Project I am working on for my first semester at KEA creating a clone of twitter with PHP and AJAX. After
+              signing up users will be able to create, read, delete and update a tweet with multiple images, follow
+              other users, like a tweet, retweet and do all the other core features of twitter. I am currently not
+              hosting it anywhere but you can look at the code on github.
+            </p>
+            <div class="modal__button-holder">
+
+              <a href="https://github.com/nikulasoskarsson/Vefskolinn_Verkefnalota1/tree/master" target="_blank"
+                class="btn btn-green">View on github</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="modal2">
+      <div class="modal__content">
+        <div class="modal__left-container">
+          <img src="img/anton-portfolio.JPG" alt="" class="modal__img" />
+        </div>
+        <div class="modal__right-container">
+          <a href="#home" class="modal__close">&times;</a>
+          <div class="modal__text-holder">
+            <h1 class="modal__heading">About the project</h1>
+            <p class="modal__text">
+              Portfolio website I am creating for my designer friend in my freetime based on his design. The website is
+              built with React and Prismic. This website is a work in progress but I am currently hosting it on netlify
+              so you can see what I have done so far.
+            </p>
+            <div class="modal__button-holder ">
+              <a href="https://github.com/5dropar/" target="_blank" class="btn btn-green">Live preview</a>
+            </div>
+            <div class="modal__button-holder ">
+              <a href="https://github.com/5dropar/" target="_blank" class="btn btn-green">View on github</a>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="modal" id="modal2">
-        <div class="modal__content">
-          <div class="modal__left-container">
-            <img src="img/imgdatabase.JPG" alt="" class="modal__img" />
+
+    </div>
+
+    </div>
+
+    <div class="modal" id="modal3">
+      <div class="modal__content">
+        <div class="modal__left-container">
+          <img src="img/origo.jpg" alt="" class="modal__img" />
+        </div>
+        <div class="modal__right-container">
+          <a href="#home" class="modal__close">&times;</a>
+          <div class="modal__text-holder">
+            <h1 class="modal__heading">About the Project</h1>
+            <p class="modal__text">
+              Mobile application I created with 2 classmates as lead programmer durring my internship with the company
+              Origo. The app is meant to be used by employees for companies to handle everything related to receiving a
+              package. They can confirm a package has a arrived, update order, message the supplier dirrectly and send
+              thme one or multiple images and much more. Since this was made for a company I can neither share the code
+              more information about the project.
+            </p>
+
           </div>
-          <div class="modal__right-container">
-            <a href="#home" class="modal__close">&times;</a>
-            <div class="modal__text-holder">
-              <h1 class="modal__heading">Um Verkefnið</h1>
-              <p class="modal__text">
-                Lokaverkefni í javascript áfanganum á seinni önn. Vill taka það
-                fram að þetta er hópverkefni en hægt er að skoða hvað ég gerði
-                gegnum git commit history. Hægt er að skrá sig sem notandi og þá
-                getur maður sett in mynd. Síðan birtist myndinn á framendanum
-                ásamt upplýsingum úr microsoft computer vision api-inum. Búið
-                til með firebase og node.js.
-              </p>
-              <div class="modal__button-holder ">
-                <a
-                  href="https://github.com/5dropar/"
-                  target="_blank"
-                  class="btn btn-green"
-                  >Skoða á Github</a
-                >
-              </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="modal4">
+      <div class="modal__content">
+        <div class="modal__left-container">
+          <img src="img/glo.jpg" alt="" class="modal__img" />
+        </div>
+        <div class="modal__right-container">
+          <a href="#home" class="modal__close">&times;</a>
+          <div class="modal__text-holder">
+            <h1 class="modal__heading">About the Project</h1>
+            <p class="modal__text">
+              Small project I created durring my second semester learning web development. This is mainly a design and ui project
+              and it is designed and built entirely by me. The project itself is a Nutrition calculator for a chain of resturants in Iceland.
+            </p>
+            <div class="modal__button-holder ">
+              <a href="https://github.com/5dropar/" target="_blank" class="btn btn-green">Live preview</a>
+            </div>
+            <div class="modal__button-holder ">
+              <a href="https://github.com/5dropar/" target="_blank" class="btn btn-green">View on github</a>
             </div>
           </div>
         </div>
       </div>
-      <footer class="footer" id="footer">
-        <div class="footer__content">
-          <h1 class="footer__heading u-center-text">
-            NIKULASOSKARSSON.COM
-          </h1>
-          <div class="footer__left">
-            <ul class="footer__list">
-              <li class="footer__list-item">
-                <a
-                  href="https://github.com/nikulasoskarsson"
-                  class="footer__link"
-                  target="_blank"
-                  >Github</a
-                >
-              </li>
-              <li class="footer__list-item">
-                <a
-                  href="https://www.facebook.com/N1kul4s"
-                  class="footer__link"
-                  target="_blank"
-                  >Facebook</a
-                >
-              </li>
-              <li class="footer__list-item">
-                <a
-                  href="https://www.instagram.com/nikulasoskarsson/"
-                  target="_blank"
-                  class="footer__link"
-                  >Instagram</a
-                >
-              </li>
-              <li class="footer__list-item">
-                <a
-                  href="https://www.youtube.com/channel/UCcVzLr8UOx_CvS8unUvXUGg?view_as=subscriber"
-                  target="_blank"
-                  class="footer__link"
-                  >Youtube</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="footer__right">
-            <ul class="footer__list">
-              <li class="footer__list-item">
-                &copy; nikulasoskarsson.com 2020
-              </li>
-              <li class="footer__list-item">
-                nikulasoskarsson@gmail.com
-              </li>
-              <li class="footer__list-item">
-                +354 776 9906
-              </li>
-            </ul>
-          </div>
+    </div>
+    <footer class="footer" id="footer">
+      <div class="footer__content">
+        <h1 class="footer__heading u-center-text">
+          NIKULASOSKARSSON.COM
+        </h1>
+        <div class="footer__left">
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <a href="https://github.com/nikulasoskarsson" class="footer__link" target="_blank">Github</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="https://www.facebook.com/N1kul4s" class="footer__link" target="_blank">Facebook</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="https://www.instagram.com/nikulasoskarsson/" target="_blank" class="footer__link">Instagram</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="https://www.youtube.com/channel/UCcVzLr8UOx_CvS8unUvXUGg?view_as=subscriber" target="_blank"
+                class="footer__link">Youtube</a>
+            </li>
+          </ul>
         </div>
-      </footer>
-      <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase-app.js"></script>
-      <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase-firestore.js"></script>
-      <script>
-        // Initialize Firebase
-        var config = {
-          apiKey: "AIzaSyBXaVgY7j27iJq9qLD4ROsK5It_1dPH9YM",
-          authDomain: "portfolio-email-799f8.firebaseapp.com",
-          databaseURL: "https://portfolio-email-799f8.firebaseio.com",
-          projectId: "portfolio-email-799f8",
-          storageBucket: "",
-          messagingSenderId: "368159468477"
-        };
-        firebase.initializeApp(config);
+        <div class="footer__right">
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              &copy; nikulasoskarsson.com 2020
+            </li>
+            <li class="footer__list-item">
+              nikulasoskarsson@gmail.com
+            </li>
+            <li class="footer__list-item">
+              +354 776 9906
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase-firestore.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBXaVgY7j27iJq9qLD4ROsK5It_1dPH9YM",
+        authDomain: "portfolio-email-799f8.firebaseapp.com",
+        databaseURL: "https://portfolio-email-799f8.firebaseio.com",
+        projectId: "portfolio-email-799f8",
+        storageBucket: "",
+        messagingSenderId: "368159468477"
+      };
+      firebase.initializeApp(config);
 
-        const db = firebase.firestore();
-      </script>
+      const db = firebase.firestore();
+    </script>
 
-      <script type="text/javascript" src="js/main.js"></script>
-      <script type="text/javascript" src="js/form.js"></script>
-    </header>
-  </body>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/form.js"></script>
+  </header>
+</body>
+
 </html>
